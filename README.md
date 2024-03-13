@@ -1,4 +1,3 @@
 # Lawz-Tables
 
-##
-Contributing
+## 🤝 Contributing
