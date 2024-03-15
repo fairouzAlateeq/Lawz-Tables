@@ -5,9 +5,27 @@
 
 
 # DB SQL
+CREATE DATABASE LAWZ;
 
+CREATE TABLE PLANT (
+PLANTID PK INT,
+PLANTNAME FK VARCHAR(200),
+SUNLIGHT BOOL,
+IRR-NO CHAR(7),
+ML VARCHAR(500),
+); 
+
+CREATE TABLE USER (
+USERID PK INT,
+PASSWORD VARCHAR(200),
+DISPLAYNAME VARCHAR(200),
+);
+
+ALTER TABLE USER 
+ADD USERNAME UNIQUE VARCHAR(200);
 
 ## 🤝 Contributing
+This code contributes in the making of our app LAWZ which encourages sustainability.
 
 ### Clone the repo
 All pull requests should be submitted to the main branch.
