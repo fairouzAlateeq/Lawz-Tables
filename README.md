@@ -11,7 +11,9 @@ CREATE TABLE PLANT (
 PLANTID PK INT,
 PLANTNAME FK VARCHAR(200),
 SUNLIGHT BOOL,
+/*  No. of days the plant needs water per week */
 IRR-NO CHAR(7),
+/* No. of ML of water the plant needs per day*/
 ML VARCHAR(500),
 ); 
 
